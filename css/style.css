@@ -1,0 +1,110 @@
+/*---------- Global -----------*/
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-orange: #E38826;
+    --bg-lightblue: #006970;
+    --bg-aquagreen: #004241;
+}
+
+body{
+    font-family: Lexend Deca;
+    color: white;
+}
+
+/*--------- Backgrounds ----------*/
+.bg-one{
+    background-color: var(--bg-orange);
+}
+
+.bg-two{
+    background-color: var(--bg-lightblue);
+}
+
+.bg-three{
+    background-color: var(--bg-aquagreen);
+}
+
+
+.bg-four p{
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---------- -----------*/
+.content-box{
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: 67%;
+    padding: 100px 0;
+}
+
+.box{
+    width: 308px;
+    padding: 50px;
+    height: 500px;
+}
+
+.box span{
+    font-size: 34px;
+    padding: 20px 0;
+    display: block;
+}
+
+.box p{
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.box a{
+    background-color: #FFF;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.box a:hover{
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    transition-duration: .2s;
+    transition-property: border-color, background-color, color;
+}
+
+.bg-one a{
+    color:  var(--bg-orange);
+}
+
+.bg-two a{
+   color: var(--bg-lightblue);
+}
+
+.bg-three a{
+    color: var(--bg-aquagreen);
+}
+
+/* ---------- Footer ----------- */
+.content-footer{
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-footer a{
+    text-decoration: none;
+    color: hsl(340, 61%, 64%);
+    transition-duration: 0.5s;
+}
+
+.content-footer a:hover{
+    color: hsl(340, 61%, 54%);
+    transition-duration: 0.5s;
+}
